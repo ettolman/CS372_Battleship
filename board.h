@@ -10,9 +10,7 @@ class Board{
 public:
     Board::Board(vector<vector<int>> size[10][10]):_board(size);
     
-    void printBoard(){
-        
-    }
+    void printBoard();
     
 private:
     vector<vector<int>> _board;
