@@ -4,18 +4,20 @@
 
 #ifndef CS372_BATTLESHIP_BOARD_H
 #define CS372_BATTLESHIP_BOARD_H
+
+#include <vector>
+
 // class Board creates board objects
 class Board{
     
 public:
-    Board::Board(vector<vector<int>> size[10][10]):_board(size);
-    
-    void printBoard(){
-        
-    }
+    Board();
+
+    void printBoard();
     
 private:
-    vector<vector<int>> _board;
+    std::vector<int> _board;
+    std::vector<int> _size[10][10];
 };
 
 #endif //CS372_BATTLESHIP_BOARD_H
