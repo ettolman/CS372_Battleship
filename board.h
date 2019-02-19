@@ -13,11 +13,9 @@ class Board{
     
 public:
     //Default Constructor
+    //Prints Board in ASCII
     Board();
 
-    //printBoard function
-    //Prints board in ASCII
-    void printBoard();
 
     //Ships
     static const int DESTROYER_SIZE = 2;
@@ -28,7 +26,12 @@ public:
     const int SHIP_SIZE[5] = {DESTROYER_SIZE, SUBMARINE_SIZE, FRIGATE_SIZE, BATTLESHIP_SIZE, CARRIER_SIZE };
     
 private:
-    std::vector<int> _board;
+    std::vector<std::vector<char>> _board;
+    int destroyerNumber;
+    int submarineNumber;
+    int frigateNumber;
+    int battleshipNumber;
+    int carrierNumber;
 };
 
 #endif //CS372_BATTLESHIP_BOARD_H
