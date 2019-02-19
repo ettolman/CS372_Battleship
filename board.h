@@ -6,6 +6,7 @@
 #define CS372_BATTLESHIP_BOARD_H
 
 #include <vector>
+#include <iostream>
 
 // class Board creates board objects
 class Board{
