@@ -1,9 +1,10 @@
 #include <iostream>
 #include <vector>
-using std::vector
+#include "board.h"
 
 // Main prints the and controls the game
 int main() {
-    
+    Board board;
+    board.printBoard();
     
 }

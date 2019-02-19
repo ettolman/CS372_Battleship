@@ -8,6 +8,7 @@ void Board::printBoard(){
         for(int j = 0; j < 10; j++){
             std::cout << "_ ";
         }
+        std::cout << std::endl;
     }
 }
 Board::Board(): _board(10, 10) {}
