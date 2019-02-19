@@ -17,7 +17,6 @@ public:
     
 private:
     std::vector<int> _board;
-    std::vector<int> _size[10][10];
 };
 
 #endif //CS372_BATTLESHIP_BOARD_H
