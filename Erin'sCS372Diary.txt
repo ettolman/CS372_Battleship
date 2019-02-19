@@ -1,1 +1,2 @@
 1hr spent on user stories.
+3hr spent on creating board class, main, and starting ships
