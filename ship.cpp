@@ -14,3 +14,21 @@ int Ship::getHealth()
     return _health;
 }
 
+void Ship::Hit()
+{
+    setHealth(this->getHealth() - 1);
+}
+
+bool Ship::Destroyed()
+{
+    bool sunk = false;
+    if (this->getHealth() == 0)
+    {
+        sunk = true;
+        return sunk;
+    }
+    else
+    {
+        return sunk;
+    }
+}
