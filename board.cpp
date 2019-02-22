@@ -21,3 +21,8 @@ void Board::printBoard()
         std::cout << std::endl;
     }
 }
+
+std::vector<std::vector<int>> Board::placeShip(int xCoor, int yCoor, Ship ship)
+{
+    return _board;
+}

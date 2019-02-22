@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <iostream>
+#include "ship.h"
 
 // class Board creates board objects
 class Board{
@@ -16,6 +17,7 @@ public:
     //Prints Board in ASCII
     Board(std::vector<std::vector<int>> size);
     void printBoard();
+    std::vector<std::vector<int>> placeShip(int xCoor, int yCoor, Ship ship);
 
     //Ships
     static const int DESTROYER_SIZE = 2;
