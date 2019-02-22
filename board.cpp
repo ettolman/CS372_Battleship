@@ -10,4 +10,14 @@ Board::Board(std::vector<std::vector<int>> size)
     _length = 10;
 }
 
-void Board::printBoard(){}
+void Board::printBoard()
+{
+    std::cout << "  a b c d e f g h i j" << std::endl;
+    for(int i = 0; i < _length; i++){
+        std::cout << i;
+        for(int j = 0; j < _height; j++){
+            std::cout << " .";
+        }
+        std::cout << std::endl;
+    }
+}
