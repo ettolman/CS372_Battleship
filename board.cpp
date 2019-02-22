@@ -3,7 +3,7 @@
 //
 #include "board.h"
 
-void Board::printBoard(){
+ Board::Board(){
     for(int i = 0; i < 10; i++){
         for(int j = 0; j < 10; j++){
             std::cout << "_ ";
@@ -11,4 +11,3 @@ void Board::printBoard(){
         std::cout << std::endl;
     }
 }
-Board::Board(): _board(10, 10) {}
