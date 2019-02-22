@@ -3,11 +3,9 @@
 //
 #include "board.h"
 
- Board::Board(){
-    for(int i = 0; i < 10; i++){
-        for(int j = 0; j < 10; j++){
-            std::cout << "_ ";
-        }
-        std::cout << std::endl;
-    }
+Board::Board(std::vector<std::vector<int>> size)
+{
+    _board = size;
+    _height = 10;
+    _length = 10;
 }

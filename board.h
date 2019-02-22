@@ -14,8 +14,8 @@ class Board{
 public:
     //Default Constructor
     //Prints Board in ASCII
-    Board();
-
+    Board(std::vector<std::vector<int>> size){}
+    
 
     //Ships
     static const int DESTROYER_SIZE = 2;
@@ -26,7 +26,10 @@ public:
     const int SHIP_SIZE[5] = {DESTROYER_SIZE, SUBMARINE_SIZE, FRIGATE_SIZE, BATTLESHIP_SIZE, CARRIER_SIZE };
     
 private:
-    std::vector<std::vector<char>> _board;
+
+    std::vector<std::vector<int>> _board;
+    int _height;
+    int _length;
     int destroyerNumber;
     int submarineNumber;
     int frigateNumber;
