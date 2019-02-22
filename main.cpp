@@ -5,6 +5,5 @@
 // Main prints the and controls the game
 int main() {
     Board board;
-    board.printBoard();
     
 }
