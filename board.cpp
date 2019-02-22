@@ -9,3 +9,5 @@ Board::Board(std::vector<std::vector<int>> size)
     _height = 10;
     _length = 10;
 }
+
+void Board::printBoard(){}

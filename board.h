@@ -14,8 +14,8 @@ class Board{
 public:
     //Default Constructor
     //Prints Board in ASCII
-    Board(std::vector<std::vector<int>> size){}
-    
+    Board(std::vector<std::vector<int>> size);
+    void printBoard();
 
     //Ships
     static const int DESTROYER_SIZE = 2;
