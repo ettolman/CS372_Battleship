@@ -30,6 +30,9 @@
 		AE376CEE221F943000EBEF31 /* ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ship.h; path = ../../ship.h; sourceTree = "<group>"; };
 		AE376CF0221F9A8500EBEF31 /* testBattleShip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testBattleShip.cpp; path = ../../testBattleShip.cpp; sourceTree = "<group>"; };
 		AE376CF2221F9C0B00EBEF31 /* catch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = catch.hpp; path = ../../../CS311/newSSarray/catch.hpp; sourceTree = "<group>"; };
+		AE376CF32220D28A00EBEF31 /* submarine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = submarine.h; path = ../../submarine.h; sourceTree = "<group>"; };
+		AE376CF42220D28B00EBEF31 /* destroyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = destroyer.h; path = ../../destroyer.h; sourceTree = "<group>"; };
+		AE376CF52220D28B00EBEF31 /* frigate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = frigate.h; path = ../../frigate.h; sourceTree = "<group>"; };
 		AE92B27B221BC41B005CD989 /* battleship */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = battleship; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE92B285221BC445005CD989 /* board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = board.cpp; path = ../../board.cpp; sourceTree = "<group>"; };
 		AE92B286221BC445005CD989 /* board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = board.h; path = ../../board.h; sourceTree = "<group>"; };
@@ -70,6 +73,9 @@
 				AE376CF0221F9A8500EBEF31 /* testBattleShip.cpp */,
 				AE376CF2221F9C0B00EBEF31 /* catch.hpp */,
 				AE92B286221BC445005CD989 /* board.h */,
+				AE376CF42220D28B00EBEF31 /* destroyer.h */,
+				AE376CF52220D28B00EBEF31 /* frigate.h */,
+				AE376CF32220D28A00EBEF31 /* submarine.h */,
 				AE376CED221F943000EBEF31 /* ship.cpp */,
 				AE376CEE221F943000EBEF31 /* ship.h */,
 				AE92B287221BC445005CD989 /* main.cpp */,

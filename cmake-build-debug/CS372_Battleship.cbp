@@ -82,7 +82,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/battleship.h">
+			<Option target="CS372_Battleship"/>
+		</Unit>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/board.cpp">
+			<Option target="CS372_Battleship"/>
+		</Unit>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/board.h">
+			<Option target="CS372_Battleship"/>
+		</Unit>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/catch.hpp">
+			<Option target="CS372_Battleship"/>
+		</Unit>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/destroyer.h">
+			<Option target="CS372_Battleship"/>
+		</Unit>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/frigate.h">
+			<Option target="CS372_Battleship"/>
+		</Unit>
 		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/main.cpp">
+			<Option target="CS372_Battleship"/>
+		</Unit>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/ship.cpp">
+			<Option target="CS372_Battleship"/>
+		</Unit>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/ship.h">
+			<Option target="CS372_Battleship"/>
+		</Unit>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/submarine.h">
+			<Option target="CS372_Battleship"/>
+		</Unit>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/testBattleShip.cpp">
 			<Option target="CS372_Battleship"/>
 		</Unit>
 		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/CMakeLists.txt">

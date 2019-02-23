@@ -123,6 +123,33 @@ CS372_Battleship/fast:
 	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/build
 .PHONY : CS372_Battleship/fast
 
+board.o: board.cpp.o
+
+.PHONY : board.o
+
+# target to build an object file
+board.cpp.o:
+	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/board.cpp.o
+.PHONY : board.cpp.o
+
+board.i: board.cpp.i
+
+.PHONY : board.i
+
+# target to preprocess a source file
+board.cpp.i:
+	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/board.cpp.i
+.PHONY : board.cpp.i
+
+board.s: board.cpp.s
+
+.PHONY : board.s
+
+# target to generate assembly for a file
+board.cpp.s:
+	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/board.cpp.s
+.PHONY : board.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+ship.o: ship.cpp.o
+
+.PHONY : ship.o
+
+# target to build an object file
+ship.cpp.o:
+	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/ship.cpp.o
+.PHONY : ship.cpp.o
+
+ship.i: ship.cpp.i
+
+.PHONY : ship.i
+
+# target to preprocess a source file
+ship.cpp.i:
+	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/ship.cpp.i
+.PHONY : ship.cpp.i
+
+ship.s: ship.cpp.s
+
+.PHONY : ship.s
+
+# target to generate assembly for a file
+ship.cpp.s:
+	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/ship.cpp.s
+.PHONY : ship.cpp.s
+
+testBattleShip.o: testBattleShip.cpp.o
+
+.PHONY : testBattleShip.o
+
+# target to build an object file
+testBattleShip.cpp.o:
+	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/testBattleShip.cpp.o
+.PHONY : testBattleShip.cpp.o
+
+testBattleShip.i: testBattleShip.cpp.i
+
+.PHONY : testBattleShip.i
+
+# target to preprocess a source file
+testBattleShip.cpp.i:
+	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/testBattleShip.cpp.i
+.PHONY : testBattleShip.cpp.i
+
+testBattleShip.s: testBattleShip.cpp.s
+
+.PHONY : testBattleShip.s
+
+# target to generate assembly for a file
+testBattleShip.cpp.s:
+	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/testBattleShip.cpp.s
+.PHONY : testBattleShip.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CS372_Battleship"
+	@echo "... board.o"
+	@echo "... board.i"
+	@echo "... board.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... ship.o"
+	@echo "... ship.i"
+	@echo "... ship.s"
+	@echo "... testBattleShip.o"
+	@echo "... testBattleShip.i"
+	@echo "... testBattleShip.s"
 .PHONY : help
 
 

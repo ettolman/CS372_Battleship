@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CS372_Battleship.dir/main.cpp.o"
+  "CMakeFiles/CS372_Battleship.dir/board.cpp.o"
+  "CMakeFiles/CS372_Battleship.dir/ship.cpp.o"
+  "CMakeFiles/CS372_Battleship.dir/testBattleShip.cpp.o"
   "CS372_Battleship.pdb"
   "CS372_Battleship"
 )
