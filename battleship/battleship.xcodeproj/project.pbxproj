@@ -70,9 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				AE92B285221BC445005CD989 /* board.cpp */,
+				AE92B286221BC445005CD989 /* board.h */,
 				AE376CF0221F9A8500EBEF31 /* testBattleShip.cpp */,
 				AE376CF2221F9C0B00EBEF31 /* catch.hpp */,
-				AE92B286221BC445005CD989 /* board.h */,
 				AE376CF42220D28B00EBEF31 /* destroyer.h */,
 				AE376CF52220D28B00EBEF31 /* frigate.h */,
 				AE376CF32220D28A00EBEF31 /* submarine.h */,

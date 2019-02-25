@@ -1,3 +1,4 @@
 1hr spent on user stories.
 3hr spent on creating board class, main, and starting ships
 02/21 2hr spent on board class and ship classes
+02/22 1hr spent on board class

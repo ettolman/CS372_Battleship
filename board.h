@@ -17,7 +17,7 @@ public:
     //Prints Board in ASCII
     Board(std::vector<std::vector<std::string>> size);
     void printBoard();
-    std::vector<std::vector<std::string>> placeShip(int xCoor, int yCoor);
+    std::vector<std::vector<std::string>> placeShip(int xCoor, int yCoor, Board board);
 
     //Ships
     static const int DESTROYER_SIZE = 2;

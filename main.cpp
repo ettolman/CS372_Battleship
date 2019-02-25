@@ -6,5 +6,5 @@ int main() {
     std::vector<std::vector<std::string>> myBoard(10, height);
     Board board(myBoard);
     board.printBoard();
-    board.placeShip(1,2);
+    board.placeShip(1,2, myBoard);
 }

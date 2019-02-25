@@ -6,26 +6,31 @@
 Board::Board(std::vector<std::vector<std::string>> size)
 {
     _board = size;
+    for(int i = 0; i < _length; i++){
+        std::cout << i;
+        for(int j = 0; j < _height; j++){
+            _board[i][j] = ".";
+        }
+    }
     _height = 10;
     _length = 10;
 }
 
 void Board::printBoard()
 {
-    std::string boardString = " .";
-    std::cout << "  a b c d e f g h i j" << std::endl;
+    std::cout << "  0 1 2 3 4 5 6 7 8 9" << std::endl;
     for(int i = 0; i < _length; i++){
         std::cout << i;
         for(int j = 0; j < _height; j++){
-            _board[i][j] = boardString;
-            std::cout << _board[i][j];
+            std::cout << " " << _board[i][j];
         }
         std::cout << std::endl;
     }
 }
 
-std::vector<std::vector<std::string>> Board::placeShip(int xCoor, int yCoor)
+std::vector<std::vector<std::string>> Board::placeShip(int xCoor, int yCoor, Board board)
 {
-    _board[xCoor][yCoor];
-    return _board;
+    board._board[yCoor][xCoor] = "s";
+    board.printBoard();
+    return board._board;
 }
