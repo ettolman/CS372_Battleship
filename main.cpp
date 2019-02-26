@@ -1,3 +1,4 @@
+#define Catch_Config_MAIN
 #include "board.h"
 
 // Main prints the and controls the game

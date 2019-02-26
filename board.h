@@ -30,6 +30,7 @@ public:
 private:
 
     std::vector<std::vector<std::string>> _board;
+    std::vector<Ship*> fleet;
     int _height;
     int _length;
     int destroyerNumber;

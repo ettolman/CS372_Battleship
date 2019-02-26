@@ -10,6 +10,10 @@
 ship.h
 /Users/ianferguson/Documents/battleship/CS372_Battleship/ship.h
 
+/Users/ianferguson/Documents/battleship/CS372_Battleship/board.cpp
+board.h
+/Users/ianferguson/Documents/battleship/CS372_Battleship/board.h
+
 /Users/ianferguson/Documents/battleship/CS372_Battleship/board.h
 vector
 -
@@ -449,6 +453,10 @@ cassert
 /Users/ianferguson/Documents/battleship/CS372_Battleship/destroyer.h
 ship.h
 /Users/ianferguson/Documents/battleship/CS372_Battleship/ship.h
+
+/Users/ianferguson/Documents/battleship/CS372_Battleship/main.cpp
+board.h
+/Users/ianferguson/Documents/battleship/CS372_Battleship/board.h
 
 /Users/ianferguson/Documents/battleship/CS372_Battleship/ship.h
 
