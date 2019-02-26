@@ -19,6 +19,7 @@ public:
     void printBoard();
     int getHeight();
     int getLength();
+    void fillGrid(std::vector<std::vector<std::string>> &vec, std::string fillVal);
     std::vector<std::vector<std::string>> placeShip(int xCoor, int yCoor, Board board);
 
     //Ships

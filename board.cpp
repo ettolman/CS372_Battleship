@@ -6,14 +6,16 @@
 Board::Board(std::vector<std::vector<std::string>> size)
 {
     _board = size;
-    for(int i = 0; i < _length; i++){
-        std::cout << i;
-        for(int j = 0; j < _height; j++){
-            _board[i][j] = ".";
-        }
-    }
     _height = 10;
     _length = 10;
+    fillGrid(_board, "~");
+}
+
+void Board::fillGrid(std::vector<std::vector<std::string>> &vec, std::string fillVal)
+{
+    for (int y = 0; y < _height; y++)
+        for (int x = 0; x < _length; x++)
+            vec[y][x] = fillVal;
 }
 
 void Board::printBoard()
