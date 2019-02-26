@@ -9,5 +9,5 @@ int main() {
     board.printBoard();
     
     //prompt user to place ship
-    board.placeShip(1,2, myBoard);
+    //board.placeShip(1,2, myBoard);
 }

@@ -38,9 +38,7 @@ int Board::getLength(){
     return _length;
 }
 
-std::vector<std::vector<std::string>> Board::placeShip(int xCoor, int yCoor, Board board)
+void placeShip(Board::ShipName ship, Board::Orientation ori, int, int, char&)
 {
-    board._board[yCoor][xCoor] = "s";
-    board.printBoard();
-    return board._board;
+
 }
