@@ -17,6 +17,8 @@ public:
     //Prints Board in ASCII
     Board(std::vector<std::vector<std::string>> size);
     void printBoard();
+    int getHeight();
+    int getLength();
     std::vector<std::vector<std::string>> placeShip(int xCoor, int yCoor, Board board);
 
     //Ships

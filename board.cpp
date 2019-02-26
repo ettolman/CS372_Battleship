@@ -28,6 +28,14 @@ void Board::printBoard()
     }
 }
 
+int Board::getHeight(){
+    return _height;
+}
+
+int Board::getLength(){
+    return _length;
+}
+
 std::vector<std::vector<std::string>> Board::placeShip(int xCoor, int yCoor, Board board)
 {
     board._board[yCoor][xCoor] = "s";
