@@ -12,13 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a400c49-b117-4e32-85bf-2566b6a26207" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleship/battleship.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/battleship/battleship.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleship/battleship.xcodeproj/project.xcworkspace/xcuserdata/erintolman.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/battleship/battleship.xcodeproj/project.xcworkspace/xcuserdata/erintolman.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/board.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/board.h" beforeDir="false" afterPath="$PROJECT_DIR$/board.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS372_Battleship.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS372_Battleship.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS372_Battleship.dir/board.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS372_Battleship.dir/board.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS372_Battleship.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS372_Battleship.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CS372_Battleship" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CS372_Battleship" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testBattleShip.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/testBattleShip.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/board.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="213">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="e#132#149#0" expanded="true" />
               </folding>
@@ -81,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/board.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="-139">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -216,12 +215,12 @@
       <workItem from="1550540865522" duration="4704000" />
       <workItem from="1550793737056" duration="511000" />
       <workItem from="1550882223964" duration="2161000" />
-      <workItem from="1551220834219" duration="551000" />
+      <workItem from="1551220834219" duration="800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10974000" />
+    <option name="totallyTimeSpent" value="11223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="43" width="1346" height="650" extended-state="0" />
@@ -352,20 +351,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/board.h">
+    <entry file="file://$PROJECT_DIR$/board.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="e#132#149#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-139">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/board.cpp">
+    <entry file="file://$PROJECT_DIR$/board.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="213">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="e#132#149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
