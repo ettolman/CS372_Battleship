@@ -7,7 +7,6 @@ int main() {
     std::vector<std::vector<std::string>> myBoard(10, height);
     Board board(myBoard);
     board.printBoard();
-    
     //prompt user to place ship
-    //board.placeShip(1,2, myBoard);
+    board.placeShip(Board::SUBMARINE, Board::VERTICAL, 2, 3, );
 }
