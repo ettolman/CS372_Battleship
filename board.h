@@ -25,15 +25,12 @@ public:
     void printBoard();
     int getHeight();
     int getLength();
-<<<<<<< HEAD
     void fillGrid(std::vector<std::vector<std::string>> &vec, std::string fillVal);
     std::vector<std::vector<std::string>> placeShip(int xCoor, int yCoor, Board board);
 
     //Ships
-=======
     void placeShip(ShipName ship, Orientation ori, int, int, char&);
     //Ship Information
->>>>>>> 6062612a4283a9303057079e079e162e3c2808f9
     static const int DESTROYER_SIZE = 2;
     static const int SUBMARINE_SIZE = 3;
     static const int FRIGATE_SIZE = 3;
