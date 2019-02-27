@@ -2,6 +2,11 @@
 // Created by Ian Ferguson and Erin Tolman on 2019-02-18.
 //
 #include "board.h"
+#include "battleship.h"
+#include "frigate.h"
+#include "carrier.h"
+#include "submarine.h"
+#include "destroyer.h"
 
 Board::Board()
 {
@@ -81,7 +86,112 @@ int Board::getShipLookupSize()
     return shipLookup.size();
 }
 
-int Board::getShipLookupCell(int ship) const
+void Board::setBattleNum(int battle)
 {
-    return shipLookup[ship];
+    _battleshipNumber = battle;
+}
+
+void Board::setCarrierNum(int carrier)
+{
+    _carrierNumber = carrier;
+}
+
+void Board::setDestroyerNum(int destroy)
+{
+    _destroyerNumber = destroy;
+}
+
+void Board::setSubNum(int Sub)
+{
+    _submarineNumber = Sub;
+}
+
+void Board::setFrigatenum(int frigate)
+{
+    _frigateNumber = frigate;
+}
+
+int Board::getDestroyerNum() const
+{
+    return _destroyerNumber;
+}
+
+int Board::getBattleNum() const
+{
+    return _battleshipNumber;
+}
+
+int Board::getFrigateNum() const
+{
+    return _frigateNumber;
+}
+
+int Board::getSubNum() const
+{
+    return _submarineNumber;
+}
+
+int Board::getCarrierNum() const
+{
+    return _carrierNumber;
+}
+
+bool Board::checkPlacement(ShipName ship, Orientation ori, int, int, bool) const
+{
+    return true;
+}
+
+bool Board::getWinner(bool &winner) const
+{
+    return false;
+}
+
+void Board::addShips(int destroyerNum, int subNum ,int frigateNum ,int battleNum ,int carrierNum)
+{
+    if (destroyerNum > 0)
+    {
+        setDestroyerNum(destroyerNum);
+        for (int i = 0; i < destroyerNum; i++)
+        {
+            _fleet.push_back(new Destroyer());
+            shipLookup.push_back(DESTROYER);
+        }
+    }
+    if (subNum > 0)
+    {
+        setSubNum(subNum);
+        for (int i = 0; i < subNum; i++)
+        {
+            _fleet.push_back(new Submarine());
+            shipLookup.push_back(SUBMARINE);
+        }
+    }
+    if (frigateNum > 0)
+    {
+        setFrigatenum(frigateNum);
+        for (int i = 0; i < frigateNum; i++)
+        {
+            _fleet.push_back(new Frigate());
+            shipLookup.push_back(FRIGATE);
+        }
+    }
+    if (battleNum > 0)
+    {
+        setBattleNum(battleNum);
+        for (int i = 0; i < battleNum; i++)
+        {
+            _fleet.push_back(new Battleship());
+            shipLookup.push_back(BATTLESHIP);
+        }
+    }
+    if (carrierNum > 0)
+    {
+        setCarrierNum(carrierNum);
+        for (int i = 0; i < carrierNum; i++)
+        {
+            _fleet.push_back(new Carrier());
+            shipLookup.push_back(CARRIER);
+        }
+    }
+
 }

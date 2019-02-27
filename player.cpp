@@ -58,14 +58,15 @@ void Player::playerChooseShips()
             shipPool = true;
         }
     }
+    addShips(destroyNum, submarineNum, frigateNum, battleNum, carrierNum);
 
 }
 
 void Player::playerPlaceShips()
 {
-    int x;
-    int y;
-    int userOrientation;
+    int x =0;
+    int y= 0;
+    int userOrientation =0;
     std::string shipType;
     bool badPlacement = false;
     Orientation ori;
@@ -73,7 +74,6 @@ void Player::playerPlaceShips()
 
     for(int i=0; i<getShipLookupSize(); i++)
     {
-        do
         {
             badPlacement = false;
             cout << "Place your ships." << endl;
@@ -111,14 +111,31 @@ void Player::playerPlaceShips()
             }
             if(userOrientation ==1)
             {
-                ori == HORIZONTAL;
+                ori = HORIZONTAL;
             }
             if (userOrientation ==2)
             {
-                ori == VERTICAL;
+                ori = VERTICAL;
             }
+
+            cout << "What x coordinate do you want to place your piece?" << endl;
+            std::cin >> x;
+            if(x < 0)
+            {
+                cout << "Bad placement, please try again." << endl;
+                std::cin >> x;
+            }
+            cout << "What y coordinate do you want to place your piece?" << endl;
+            std::cin >> y;
+            if ( y <0)
+            {
+                cout << "Bad placement, please try again" << endl;
+                std::cin >> y;
+            }
+            placeShip(getShipLookupCell(i), ori, x, y, shipCounter);
+            printBoard();
+
         }
-        while(badPlacement);
 
     }
 

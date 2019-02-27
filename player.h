@@ -11,6 +11,8 @@ class Player : public Board
 public:
     Player(): Board()
     {
+        playerChooseShips();
+        playerPlaceShips();
 
     }
     void playerChooseShips();

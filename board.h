@@ -28,17 +28,34 @@ public:
     //getters
     int getHeight();
     int getLength();
-    void fillGrid(std::vector<std::vector<std::string>> &vec, std::string fillVal);\
 
     //Accessors and Mutator Functions
     void setshipAmount(int amount);
     int getShipAmount();
     int getShipLookupSize();
     void setShipLookup();
-    int getShipLookupCell(int ship) const;
+    ShipName getShipLookupCell(int ship) const
+    {
+        return shipLookup[ship];
+    }
+    void setDestroyerNum(int destroy);
+    void setCarrierNum(int carrier);
+    void setBattleNum(int battle);
+    void setFrigatenum(int frigate);
+    void setSubNum(int Sub);
+    int getDestroyerNum() const;
+    int getCarrierNum() const;
+    int getBattleNum() const;
+    int getFrigateNum() const;
+    int getSubNum() const;
+
+    //Check for Winner
+    bool getWinner(bool& winner) const;
 
     //Ships
     void placeShip(ShipName ship, Orientation ori, int, int, char&);
+    bool checkPlacement(ShipName ship, Orientation ori, int, int, bool) const;
+    void addShips(int, int ,int ,int ,int);
     //Ship Information
     static const int DESTROYER_SIZE = 2;
     static const int SUBMARINE_SIZE = 3;
