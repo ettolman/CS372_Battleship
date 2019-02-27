@@ -38,7 +38,26 @@ int Board::getLength(){
     return _length;
 }
 
-void placeShip(Board::ShipName ship, Board::Orientation ori, int, int, char&)
+void Board::placeShip(ShipName ship, Orientation ori, int x, int y, char& shipCounter)
 {
+    int shipSize = SHIP_SIZE[(int)ship];
+    char shipChar = SHIP_LETTERS[(int)ship];
 
+    shipCounter++;
+    if (ori == HORIZONTAL)
+    {
+        for(int i = x; i<x+shipSize; i++)
+        {
+            _board[y][i] = shipChar;
+            _fleetpos[y][i] = shipCounter;
+        }
+    }
+    else if (ori == VERTICAL)
+    {
+        for(int i = y; i<y+shipSize; i++)
+        {
+            _board[i][x] = shipChar;
+            _fleetpos[i][x] = shipCounter;
+        }
+    }
 }
