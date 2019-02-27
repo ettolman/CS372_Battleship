@@ -26,7 +26,11 @@ public:
     void printBoard();
     int getHeight();
     int getLength();
-    void fillGrid(std::vector<std::vector<std::string>> &vec, std::string fillVal);
+    void fillGrid(std::vector<std::vector<std::string>> &vec, std::string fillVal);\
+
+    //Accessors and Mutator Functions
+    void setshipAmount(int amount);
+    int getShipAmount();
 
     //Ships
     void placeShip(ShipName ship, Orientation ori, int, int, char&);
@@ -50,11 +54,12 @@ private:
     std::vector<ShipName> shipLookup;
     int _height;
     int _length;
-    int destroyerNumber;
-    int submarineNumber;
-    int frigateNumber;
-    int battleshipNumber;
-    int carrierNumber;
+    int _shipAmount;
+    int _destroyerNumber;
+    int _submarineNumber;
+    int _frigateNumber;
+    int _battleshipNumber;
+    int _carrierNumber;
 };
 
 #endif //CS372_BATTLESHIP_BOARD_H

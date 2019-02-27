@@ -63,3 +63,15 @@ void Board::placeShip(ShipName ship, Orientation ori, int x, int y, char& shipCo
         }
     }
 }
+
+//Accessors and Mutator Functions
+
+int Board::getShipAmount()
+{
+    return _shipAmount;
+}
+
+void Board::setshipAmount(int amount)
+{
+    _shipAmount = amount;
+}
