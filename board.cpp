@@ -3,9 +3,11 @@
 //
 #include "board.h"
 
-Board::Board(std::vector<std::vector<std::string>> size)
+Board::Board()
 {
-    _board = size;
+    std::vector<std::string> height{10,"."};
+    std::vector<std::vector<std::string>> myBoard(10, height);
+    _board = myBoard;
     _height = 10;
     _length = 10;
     fillGrid(_board, "~");

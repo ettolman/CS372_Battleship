@@ -3,10 +3,9 @@
 // Main prints the and controls the game
 int main() {
     //create board
-    std::vector <std::string> height{10,"."};
-    std::vector<std::vector<std::string>> myBoard(10, height);
-    Board board(myBoard);
+//    std::vector <std::string> height{10,"."};
+//    std::vector<std::vector<std::string>> myBoard(10, height);
+    Board board;
     board.printBoard();
     //prompt user to place ship
-    board.placeShip(Board::SUBMARINE, Board::VERTICAL, 2, 3, );
 }

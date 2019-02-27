@@ -21,6 +21,7 @@ public:
 
     //Default Constructor
     //Prints Board in ASCII
+    Board();
     Board(std::vector<std::vector<std::string>> size);
     void printBoard();
     int getHeight();
@@ -45,6 +46,8 @@ private:
     std::vector<Ship*> _fleet;
     //Stores ship locations.
     std::vector<std::vector<char>> _fleetpos;
+    //Verify what ship is located on the grid.
+    std::vector<ShipName> shipLookup;
     int _height;
     int _length;
     int destroyerNumber;
