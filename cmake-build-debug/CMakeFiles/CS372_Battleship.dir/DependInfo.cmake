@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/ianferguson/Documents/battleship/CS372_Battleship/board.cpp" "/Users/ianferguson/Documents/battleship/CS372_Battleship/cmake-build-debug/CMakeFiles/CS372_Battleship.dir/board.cpp.o"
   "/Users/ianferguson/Documents/battleship/CS372_Battleship/main.cpp" "/Users/ianferguson/Documents/battleship/CS372_Battleship/cmake-build-debug/CMakeFiles/CS372_Battleship.dir/main.cpp.o"
+  "/Users/ianferguson/Documents/battleship/CS372_Battleship/player.cpp" "/Users/ianferguson/Documents/battleship/CS372_Battleship/cmake-build-debug/CMakeFiles/CS372_Battleship.dir/player.cpp.o"
   "/Users/ianferguson/Documents/battleship/CS372_Battleship/ship.cpp" "/Users/ianferguson/Documents/battleship/CS372_Battleship/cmake-build-debug/CMakeFiles/CS372_Battleship.dir/ship.cpp.o"
   "/Users/ianferguson/Documents/battleship/CS372_Battleship/testBattleShip.cpp" "/Users/ianferguson/Documents/battleship/CS372_Battleship/cmake-build-debug/CMakeFiles/CS372_Battleship.dir/testBattleShip.cpp.o"
   )

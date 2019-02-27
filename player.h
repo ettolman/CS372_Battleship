@@ -9,11 +9,14 @@
 class Player : public Board
 {
 public:
-    Player()
+    Player(): Board()
     {
 
     }
+    void playerChooseShips();
     void playerPlaceShips();
+    void fire(int , int, bool&);
+    void playerFire(int&, int&);
 
 };
 
