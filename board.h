@@ -20,14 +20,15 @@ public:
 
 
     //Default Constructor
-    //Prints Board in ASCII
     Board();
     Board(std::vector<std::vector<std::string>> size);
+    //Prints Board in ASCII
     void printBoard();
+    void fillGrid(std::vector<std::vector<std::string>> &vec, std::string fillVal);
+    //getters
     int getHeight();
     int getLength();
-    void fillGrid(std::vector<std::vector<std::string>> &vec, std::string fillVal);
-
+    
     //Ships
     void placeShip(ShipName ship, Orientation ori, int, int, char&);
     //Ship Information

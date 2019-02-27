@@ -5,7 +5,10 @@ int main() {
     //create board
     Board board;
     board.printBoard();
+    
     //prompt user to place ship
+    
+    //play game until a player wins
     bool player1win = false;
     bool player2win = false;
     while(!player1win && !player2win){
