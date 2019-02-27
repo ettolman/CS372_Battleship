@@ -31,6 +31,9 @@ public:
     //Accessors and Mutator Functions
     void setshipAmount(int amount);
     int getShipAmount();
+    int getShipLookupSize();
+    void setShipLookup();
+    int getShipLookupCell(int ship) const;
 
     //Ships
     void placeShip(ShipName ship, Orientation ori, int, int, char&);

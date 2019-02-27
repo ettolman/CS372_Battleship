@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/ianferguson/Documents/battleship/CS372_Battleship/board.cpp
-board.h
-/Users/ianferguson/Documents/battleship/CS372_Battleship/board.h
-
 /Users/ianferguson/Documents/battleship/CS372_Battleship/board.h
 vector
 -
@@ -17,6 +13,16 @@ iostream
 -
 ship.h
 /Users/ianferguson/Documents/battleship/CS372_Battleship/ship.h
+
+/Users/ianferguson/Documents/battleship/CS372_Battleship/player.cpp
+functional
+-
+player.h
+/Users/ianferguson/Documents/battleship/CS372_Battleship/player.h
+
+/Users/ianferguson/Documents/battleship/CS372_Battleship/player.h
+board.h
+/Users/ianferguson/Documents/battleship/CS372_Battleship/board.h
 
 /Users/ianferguson/Documents/battleship/CS372_Battleship/ship.h
 

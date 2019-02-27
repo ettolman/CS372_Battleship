@@ -75,3 +75,13 @@ void Board::setshipAmount(int amount)
 {
     _shipAmount = amount;
 }
+
+int Board::getShipLookupSize()
+{
+    return shipLookup.size();
+}
+
+int Board::getShipLookupCell(int ship) const
+{
+    return shipLookup[ship];
+}
