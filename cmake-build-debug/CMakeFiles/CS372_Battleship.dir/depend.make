@@ -9,6 +9,11 @@ CMakeFiles/CS372_Battleship.dir/main.cpp.o: ../board.h
 CMakeFiles/CS372_Battleship.dir/main.cpp.o: ../main.cpp
 CMakeFiles/CS372_Battleship.dir/main.cpp.o: ../ship.h
 
+CMakeFiles/CS372_Battleship.dir/player.cpp.o: ../board.h
+CMakeFiles/CS372_Battleship.dir/player.cpp.o: ../player.cpp
+CMakeFiles/CS372_Battleship.dir/player.cpp.o: ../player.h
+CMakeFiles/CS372_Battleship.dir/player.cpp.o: ../ship.h
+
 CMakeFiles/CS372_Battleship.dir/ship.cpp.o: ../ship.cpp
 CMakeFiles/CS372_Battleship.dir/ship.cpp.o: ../ship.h
 

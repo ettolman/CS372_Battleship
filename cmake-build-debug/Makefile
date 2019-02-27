@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+player.o: player.cpp.o
+
+.PHONY : player.o
+
+# target to build an object file
+player.cpp.o:
+	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/player.cpp.o
+.PHONY : player.cpp.o
+
+player.i: player.cpp.i
+
+.PHONY : player.i
+
+# target to preprocess a source file
+player.cpp.i:
+	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/player.cpp.i
+.PHONY : player.cpp.i
+
+player.s: player.cpp.s
+
+.PHONY : player.s
+
+# target to generate assembly for a file
+player.cpp.s:
+	$(MAKE) -f CMakeFiles/CS372_Battleship.dir/build.make CMakeFiles/CS372_Battleship.dir/player.cpp.s
+.PHONY : player.cpp.s
+
 ship.o: ship.cpp.o
 
 .PHONY : ship.o
@@ -246,6 +273,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... player.o"
+	@echo "... player.i"
+	@echo "... player.s"
 	@echo "... ship.o"
 	@echo "... ship.i"
 	@echo "... ship.s"

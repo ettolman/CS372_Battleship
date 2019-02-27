@@ -9,7 +9,7 @@
 class Player : public Board
 {
 public:
-    Player()
+    Player(): Board()
     {
 
     }

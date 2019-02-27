@@ -91,6 +91,9 @@
 		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/board.h">
 			<Option target="CS372_Battleship"/>
 		</Unit>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/carrier.h">
+			<Option target="CS372_Battleship"/>
+		</Unit>
 		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/catch.hpp">
 			<Option target="CS372_Battleship"/>
 		</Unit>
@@ -101,6 +104,12 @@
 			<Option target="CS372_Battleship"/>
 		</Unit>
 		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/main.cpp">
+			<Option target="CS372_Battleship"/>
+		</Unit>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/player.cpp">
+			<Option target="CS372_Battleship"/>
+		</Unit>
+		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/player.h">
 			<Option target="CS372_Battleship"/>
 		</Unit>
 		<Unit filename="/Users/ianferguson/Documents/battleship/CS372_Battleship/ship.cpp">
