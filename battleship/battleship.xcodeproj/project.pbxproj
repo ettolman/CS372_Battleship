@@ -34,6 +34,7 @@
 		AE376CF42220D28B00EBEF31 /* destroyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = destroyer.h; path = ../../destroyer.h; sourceTree = "<group>"; };
 		AE376CF52220D28B00EBEF31 /* frigate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = frigate.h; path = ../../frigate.h; sourceTree = "<group>"; };
 		AE376D0B22260D9900EBEF31 /* battleship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = battleship.h; path = ../../battleship.h; sourceTree = "<group>"; };
+		AE376D0D2226232C00EBEF31 /* carrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = carrier.h; path = ../../carrier.h; sourceTree = "<group>"; };
 		AE92B27B221BC41B005CD989 /* battleship */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = battleship; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE92B285221BC445005CD989 /* board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = board.cpp; path = ../../board.cpp; sourceTree = "<group>"; };
 		AE92B286221BC445005CD989 /* board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = board.h; path = ../../board.h; sourceTree = "<group>"; };
@@ -73,14 +74,15 @@
 				AE92B287221BC445005CD989 /* main.cpp */,
 				AE92B285221BC445005CD989 /* board.cpp */,
 				AE92B286221BC445005CD989 /* board.h */,
-				AE376CF0221F9A8500EBEF31 /* testBattleShip.cpp */,
-				AE376CF2221F9C0B00EBEF31 /* catch.hpp */,
 				AE376CED221F943000EBEF31 /* ship.cpp */,
 				AE376CEE221F943000EBEF31 /* ship.h */,
 				AE376CF42220D28B00EBEF31 /* destroyer.h */,
-				AE376D0B22260D9900EBEF31 /* battleship.h */,
-				AE376CF52220D28B00EBEF31 /* frigate.h */,
 				AE376CF32220D28A00EBEF31 /* submarine.h */,
+				AE376CF52220D28B00EBEF31 /* frigate.h */,
+				AE376D0B22260D9900EBEF31 /* battleship.h */,
+				AE376D0D2226232C00EBEF31 /* carrier.h */,
+				AE376CF2221F9C0B00EBEF31 /* catch.hpp */,
+				AE376CF0221F9A8500EBEF31 /* testBattleShip.cpp */,
 			);
 			path = battleship;
 			sourceTree = "<group>";
