@@ -111,27 +111,27 @@ void Board::setFrigatenum(int frigate)
     _frigateNumber = frigate;
 }
 
-int Board::getDestroyerNum() const
+int Board::getDestroyerNum() const 
 {
     return _destroyerNumber;
 }
 
-int Board::getBattleNum() const
+int Board::getBattleNum() const 
 {
     return _battleshipNumber;
 }
 
-int Board::getFrigateNum() const
+int Board::getFrigateNum() const 
 {
     return _frigateNumber;
 }
 
-int Board::getSubNum() const
+int Board::getSubNum() const 
 {
     return _submarineNumber;
 }
 
-int Board::getCarrierNum() const
+int Board::getCarrierNum() const 
 {
     return _carrierNumber;
 }

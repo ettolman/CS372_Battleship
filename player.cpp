@@ -11,7 +11,7 @@ void Player::playerChooseShips()
 {
     int shipAmount = getShipAmount();
     bool shipPool = false;
-    int shipChoice;
+    int shipChoice = 0;
     int destroyNum = 0;
     int submarineNum = 0;
     int frigateNum = 0;
@@ -58,7 +58,7 @@ void Player::playerChooseShips()
             shipPool = true;
         }
     }
-    addShips(destroyNum, submarineNum, frigateNum, battleNum, carrierNum);
+    addShips(1, 1, frigateNum, 1, 1);
 
 }
 
@@ -72,7 +72,7 @@ void Player::playerPlaceShips()
     Orientation ori;
     char shipCounter = 64;
 
-    for(int i=0; i<getShipLookupSize(); i++)
+    for(int i=0; i< 5; i++)
     {
         {
             badPlacement = false;
