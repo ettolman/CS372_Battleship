@@ -7,4 +7,20 @@
 
 \f0\fs24 \cf0 CS372 Diary\
 \
-One hour for User Stories and set up repository.}
+One hour for User Stories and set up repository.\
+\
+3 hours of working to try to set up the board and set up the classes necessary.\
+\
+Decided to try and split everything up into classes and try to actually perform inheritance on a real project. \
+\
+We can place a string on the board to represent a ship, but it resets afterwards. Decent starting point but I want to try and implement a function for it. Will make a player class derived from our board class.\
+\
+Tried writing tests but got frustrated and distracted so I decided to just write tests after we get ships on the board to make sure that the proper attributes were being assigned. Which means it might be put off until the board is done.\
+\
+Started messing around with Enumerated types to see if I can use them and then implement functions to sort of apply attributes to the types. I.e, if I want to use a Destroyer, it should know that the ship has a size of 2 squares and thus only 2 HP.\
+\
+Player class is finished but needs debugging, at the moment it doesn\'92t even ask the user for input.\
+\
+Figured out that I wasn\'92t initializing the _lookup member variable correctly. My playerPlaceShips function was trying to access values in _lookup that just didn\'92t exist. Caused an exception to be thrown. \
+\
+Now It asks the user for input and takes the input. However it doesn\'92t print correctly. Erin and I think it might be because I was messing around with chars while she built the board with strings. Might be able to fix now that I know the issue. Otherwise I\'92ll present as is.}
