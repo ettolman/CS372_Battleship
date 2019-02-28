@@ -72,8 +72,9 @@ void Player::playerPlaceShips()
     Orientation ori;
     char shipCounter = 64;
 
-    for(int i=0; i< 5; i++)
+    for(int i=0; i< getShipLookupSize(); i++)
     {
+        do
         {
             badPlacement = false;
             cout << "Place your ships." << endl;
@@ -136,6 +137,7 @@ void Player::playerPlaceShips()
             printBoard();
 
         }
+        while(badPlacement);
 
     }
 
