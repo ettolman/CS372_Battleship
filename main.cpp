@@ -11,9 +11,9 @@ int main() {
     Board board;
     Player player;
 
-
+    player.printBoard();
     player.playerPlaceShips();
-//
+
 //    //prompt user to place ship
 //
 //    //play game until a player wins

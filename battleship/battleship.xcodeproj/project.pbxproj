@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AE376CEF221F943000EBEF31 /* ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE376CED221F943000EBEF31 /* ship.cpp */; };
 		AE376CF1221F9A8600EBEF31 /* testBattleShip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE376CF0221F9A8500EBEF31 /* testBattleShip.cpp */; };
+		AE376D10222737D000EBEF31 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE376D0E222737CF00EBEF31 /* player.cpp */; };
 		AE92B288221BC445005CD989 /* board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE92B285221BC445005CD989 /* board.cpp */; };
 		AE92B289221BC445005CD989 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE92B287221BC445005CD989 /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,8 @@
 		AE376CF52220D28B00EBEF31 /* frigate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = frigate.h; path = ../../frigate.h; sourceTree = "<group>"; };
 		AE376D0B22260D9900EBEF31 /* battleship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = battleship.h; path = ../../battleship.h; sourceTree = "<group>"; };
 		AE376D0D2226232C00EBEF31 /* carrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = carrier.h; path = ../../carrier.h; sourceTree = "<group>"; };
+		AE376D0E222737CF00EBEF31 /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = player.cpp; path = ../../player.cpp; sourceTree = "<group>"; };
+		AE376D0F222737D000EBEF31 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = player.h; path = ../../player.h; sourceTree = "<group>"; };
 		AE92B27B221BC41B005CD989 /* battleship */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = battleship; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE92B285221BC445005CD989 /* board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = board.cpp; path = ../../board.cpp; sourceTree = "<group>"; };
 		AE92B286221BC445005CD989 /* board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = board.h; path = ../../board.h; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				AE376D0D2226232C00EBEF31 /* carrier.h */,
 				AE376CF2221F9C0B00EBEF31 /* catch.hpp */,
 				AE376CF0221F9A8500EBEF31 /* testBattleShip.cpp */,
+				AE376D0E222737CF00EBEF31 /* player.cpp */,
+				AE376D0F222737D000EBEF31 /* player.h */,
 			);
 			path = battleship;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE92B288221BC445005CD989 /* board.cpp in Sources */,
+				AE376D10222737D000EBEF31 /* player.cpp in Sources */,
 				AE92B289221BC445005CD989 /* main.cpp in Sources */,
 				AE376CEF221F943000EBEF31 /* ship.cpp in Sources */,
 				AE376CF1221F9A8600EBEF31 /* testBattleShip.cpp in Sources */,

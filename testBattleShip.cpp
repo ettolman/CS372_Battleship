@@ -11,8 +11,6 @@
 #include "battleship.h"
 #include "destroyer.h"
 
-
-
 //TEST_CASE("Ships return the correct amount of starting health", Ship)
 //{
 //
