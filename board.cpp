@@ -10,20 +10,22 @@
 
 Board::Board()
 {
-    std::vector<std::string> height{10,"."};
-    std::vector<std::vector<std::string>> myBoard(10, height);
-    _board = myBoard;
+    std::vector<char> height{10,'.'};
+    std::vector<std::vector<char>> myBoard(10, height);
+    _board.resize(10, std::vector<char>(10));
+    _fleetpos.resize(10, std::vector<char>(10));
     _height = 10;
     _length = 10;
-    fillGrid(_board, "~");
+    fillGrid(_board, '~');
+    fillGrid(_fleetpos, '~');
 }
 
-void Board::fillGrid(std::vector<std::vector<std::string>> &vec, std::string fillVal)
-{
-    for (int y = 0; y < _height; y++)
-        for (int x = 0; x < _length; x++)
-            vec[y][x] = fillVal;
-}
+//void Board::fillGrid(std::vector<std::vector<std::string>> &vec, std::string fillVal)
+//{
+//    for (int y = 0; y < _height; y++)
+//        for (int x = 0; x < _length; x++)
+//            vec[y][x] = fillVal;
+//}
 
 void Board::printBoard()
 {
@@ -111,27 +113,27 @@ void Board::setFrigatenum(int frigate)
     _frigateNumber = frigate;
 }
 
-int Board::getDestroyerNum() const 
+int Board::getDestroyerNum() const
 {
     return _destroyerNumber;
 }
 
-int Board::getBattleNum() const 
+int Board::getBattleNum() const
 {
     return _battleshipNumber;
 }
 
-int Board::getFrigateNum() const 
+int Board::getFrigateNum() const
 {
     return _frigateNumber;
 }
 
-int Board::getSubNum() const 
+int Board::getSubNum() const
 {
     return _submarineNumber;
 }
 
-int Board::getCarrierNum() const 
+int Board::getCarrierNum() const
 {
     return _carrierNumber;
 }

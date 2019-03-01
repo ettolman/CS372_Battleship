@@ -24,7 +24,13 @@ public:
     Board(std::vector<std::vector<std::string>> size);
     //Prints Board in ASCII
     void printBoard();
-    void fillGrid(std::vector<std::vector<std::string>> &vec, std::string fillVal);
+    template <typename T>
+    void fillGrid(std::vector<std::vector<T>> &vec, T fillVal)
+    {
+        for (int y = 0; y < _height; y++)
+            for (int x = 0; x < _length; x++)
+                vec[y][x] = fillVal;
+    }
     //getters
     int getHeight();
     int getLength();
@@ -67,7 +73,7 @@ public:
 
 private:
 
-    std::vector<std::vector<std::string>> _board;
+    std::vector<std::vector<char>> _board;
     //Stores pointer to ship object.
     std::vector<Ship*> _fleet;
     //Stores ship locations.
